@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sanjana P R</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h2 class="logo">Sanjana<span>.</span></h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <p class="contact-label">GET IN TOUCH</p>
+        <h1>Let's <span>Connect</span></h1>
+        <p>
+            Have a project idea, an opportunity, or just want to say hello?
+            I'd love to hear from you!
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="interactive-contact">
+
+        <!-- Contact Information -->
+        <div class="contact-left">
+            <h2>Let's Talk</h2>
+            <p class="contact-description">
+                Feel free to contact me. I am always open to discussing
+                new projects, creative ideas and opportunities.
+            </p>
+
+            <a class="contact-card" href="mailto:your-email@example.com">
+                <div class="contact-icon">✉</div>
+                <div>
+                    <h3>Email Me</h3>
+                    <p>sanjanapr112@gmail.com</p>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <a class="contact-card" href="tel:+91XXXXXXXXXX">
+                <div class="contact-icon">☎</div>
+                <div>
+                    <h3>Call Me</h3>
+                    <p>+91 XXXXXXXXXX</p>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <div class="contact-card">
+                <div class="contact-icon">⌖</div>
+                <div>
+                    <h3>Location</h3>
+                    <p> Hassan Karnataka, India</p>
+                </div>
+            </div>
+
+            <h3 class="social-heading">Follow Me</h3>
+
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/" target="_blank">in</a>
+                <a href="https://github.com/" target="_blank">GH</a>
+                <a href="https://www.instagram.com/" target="_blank">IG</a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-right">
+            <div class="form-heading">
+                <p class="contact-label">SEND A MESSAGE</p>
+                <h2>Drop Me a <span>Line</span></h2>
+                <p>Fill in the details below and let's start a conversation.</p>
+            </div>
+
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email"
+                               placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject"
+                           placeholder="What is this about?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="6"
+                              placeholder="Write your message here..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="send-button">
+                    Send Message <span>➜</span>
+                </button>
+
+                <p id="formStatus" class="form-status" aria-live="polite"></p>
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Sanjana P R | Designed with ♥ and Gold</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
